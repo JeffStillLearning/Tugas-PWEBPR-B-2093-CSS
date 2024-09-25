@@ -1,0 +1,751 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: white;
+    height: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 600px;
+}
+.navbar{
+    background-color: #D9D9D9;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+    list-style: none;
+    gap: 2rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+main{
+    position: relative;
+    top: 50px;
+}
+main div h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+}
+
+/* ======================================================================== */
+.semuakru{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    gap: 2rem;
+}
+/* ======================================================================== */
+.luffy{
+    display: flex;
+    background-color: #FFF4DC;
+    width: 490px;
+    height: 180px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.luffypng{
+    width: 240px;
+    height: 240px;
+    position: relative;
+    top: -50px;
+}
+.dataluffy{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 15px;
+    right: 10px;
+}
+.namaluffy{
+    font-size: 32px;
+    font-weight: 500;
+}
+.aliasluffy{
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.buttonluffy{
+    background-color: #E29A00;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    width: 240px;
+    height: 37px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+}
+/* ======================================================================== */
+.zoro{
+    position: relative;
+    top: 5px;
+    background-color: #E1FFDC;
+    width: 235px;
+    height: 180px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.zoropng{
+    width: 239px;
+    height: 178px;
+}
+.buttonzoro{
+    position: relative;
+    top: -45px;
+    left: 30px;
+    background-color: #7EB782;
+    border-radius: 15px;
+    width: 173px;
+    height: 37px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+/* ======================================================================== */
+.nami{
+    position: relative;
+    top: 10px;
+    background-color: #FFCED7;
+    width: 235px;
+    height: 180px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.namipng{
+    position: relative;
+    bottom: 4px;
+    width: 238px;
+    height: 184px;
+}
+.buttonnami{
+    position: relative;
+    top: -50px;
+    left: 30px;
+    background-color: #FF5573;
+    border-radius: 15px;
+    width: 173px;
+    height: 37px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+/* ======================================================================== */
+.sanji{
+    position: relative;
+    bottom: 400px;
+    left: 260px;
+    background-color: #E2F2FF;
+    width: 230px;
+    height: 392px;
+    border-radius: 20px;
+}
+.sanjipng{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    width: 200px;
+    height: 200px;
+}
+.namasanji{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.kata-kata1{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.kata-kata2{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.halah{
+    display: flex;
+    gap: 6px;
+    position: relative;
+    left: 60px;
+}
+.kata-kata3{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.kata-kata4 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.buttonsanji{
+    position: relative;
+    top: 13px;
+    left: 30px;
+    background-color: #3279AF;
+    width: 173px;
+    height: 37px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+/* ======================================================================== */
+.tigakrukanan{
+    background-color: #F4F4F4;
+    width: 500px;
+    height: 392px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+/* ======================================================================== */
+.usop{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 39px;
+    background-color: white;
+    width: 423px;
+    height: 96px;
+    border-radius: 15px;
+    gap: 1rem;
+    border: 1px solid #D8D6C1;
+    margin-bottom: 20px;
+}
+.usoppng{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.datausop{
+    position: relative;
+    top: 30px;
+    left: 17px;
+}
+.namausop{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonusop{
+    background-color: #D8D6C1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 149px;
+    height: 22px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* ======================================================================== */
+.chopper{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 39px;
+    background-color: white;
+    width: 423px;
+    height: 96px;
+    border-radius: 15px;
+    gap: 1rem;
+    border: 1px solid #D8D6C1;
+}
+.chopperpng{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.datachopper{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.namachopper{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonchopper{
+    background-color: #D8D6C1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 149px;
+    height: 22px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* ======================================================================== */
+.robin{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 39px;
+    background-color: white;
+    width: 423px;
+    height: 96px;
+    border-radius: 15px;
+    gap: 1rem;
+    border: 1px solid #D8D6C1;
+}
+.robinpng{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.datarobin{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.namarobin{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonrobin{
+    background-color: #D8D6C1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 149px;
+    height: 22px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* ======================================================================== */
+.duakru{
+    display: flex;
+    justify-content: center ;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 500px;
+    height: 180px;
+}
+/* ======================================================================== */
+.brook{
+    display: flex;
+}
+.brookpng{
+    width: 120px;
+    height: 134px;
+    position: relative;
+    right: 135px;
+    top: 35px;
+}
+.namabrook{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+    right: 130px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.buttonbrook{
+    position: relative;
+    top: 80px;
+    right: 130px;
+    background-color: #D8D6C1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 100px;
+    height: 55px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* ======================================================================== */
+.Jinbe{
+    display: flex;
+}
+.jinbepng{
+    width: 124px;
+    height: 117px;
+    position: relative;
+    left: 245px;
+    bottom: 125px;
+}
+.namajinbe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 230px;
+    left: 380px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.buttonjinbe{
+    position: relative;
+    bottom: 217px;
+    left: 380px;
+    background-color: #D8D6C1;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 100px;
+    height: 55px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1280px){
+    body{
+        height: 2810px;
+    }
+    .navbar{
+        position: fixed;
+        bottom: 0px;
+    }
+    main div h1{
+        position: relative;
+        top: 0px;
+    }
+    .luffy{
+        background-color: #FFF4DC;
+        width: 289px;
+        height: 299px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        position: relative;
+        left: 160px;
+        z-index: 1;
+    }
+    .luffypng{
+        position: relative;
+        top: -60px;
+        left: 30px;
+    }
+    .dataluffy{
+        position: relative;
+        top: 15px;
+        right: 10px;
+    }
+    .namaluffy{
+        position: relative;
+        top: 200px;
+        right: 170px;
+        font-size: 24px;
+    }
+    .aliasluffy{
+        position: relative;
+        top: 210px;
+        right: 120px;
+    }
+    .buttonluffy{
+        position: relative;
+        top: 91px;
+        right: 200px;
+    }
+    /* ============================================= */
+    .zoro{
+        position: relative;
+        top: 5px;
+        left: 160px;
+        width: 288.53px;
+        height: 221px;
+        z-index: 2;
+    }
+    .zoropng{
+        position: relative;
+        top: 5px;
+        width: 275px;
+        height: 217px;
+    }
+    .buttonzoro{
+        position: relative;
+        top: -57px;
+        left: 30px;
+        width: 212.41px;
+        height: 45.43px;
+    }
+    /* ======================================================================== */
+    .nami{
+        position: relative;
+        top: 10px;
+        left: 160px;
+        width: 289px;
+        height: 239.85px;
+        z-index: 3;
+    }
+    .namipng{
+        position: relative;
+        top: 27px;
+        bottom: 4px;
+        width: 275px;
+        height: 213px;
+    }
+    .buttonnami{
+        position: relative;
+        top: -38px;
+        left: 30px;
+        width: 212.75px;
+        height: 49.3px;
+    }
+    /* ======================================================================== */
+    .sanji{
+        position: relative;
+        top: 80px;
+        left: 160px;
+        width: 289px;
+        height: 314px;
+        z-index: 4;
+    }
+    .sanjipng{
+        position: relative;
+        top: -60px;
+        left: 15px;
+        width: 275px;
+        height: 275px;
+    }
+    .namasanji{
+        position: relative;
+        top: -60px;
+        left: 5px;
+        font-size: 24px;
+    }
+    .kata-kata1{
+        position: relative;
+        bottom: 78px;
+        right: 25px;
+    }
+    .kata-kata2{
+        position: relative;
+        bottom: 94px;
+        left: 106px;
+    }
+    .kata-kata3{
+        position: relative;
+        bottom: 80px;
+        right: 25px;
+    }
+    .kata-kata4{
+        position: relative;
+        bottom: 96px;
+        left: 33px;
+    }
+    .buttonsanji{
+        position: relative;
+        width: 212.41px;
+        height: 45.43px;
+        top: -210px;
+        left: 40px;
+    }
+    /* ======================================================================== */
+    .tigakrukanan{
+        background-color: white;
+        width: 0px;
+        height: 0px;
+    }
+    /* ======================================================================== */
+    .usop{
+        position: relative;
+        top: 1260px;
+        left: -160px;
+        background-color: #E9E8E2;
+        width: 288.53px;
+        height: 221px;
+        z-index: 5;
+        border: 0px solid #D8D6C1;
+    }
+    .usoppng{
+        position: relative;
+        top: -5px;
+        left: 20px;
+        width: 241px;
+        height: 245px;
+        position: relative;
+    }
+    .namausop{
+        font-size: 0px;
+        font-weight: 0;
+    }
+    .buttonusop{
+        position: relative;
+        top: 135px;
+        left: -237px;
+        background-color: #CAC8B3;
+        border-radius: 15px;
+        width: 212.41px;
+        height: 45.43px;
+        font-size: 20px;
+    }
+/* ======================================================================== */
+    .chopper{
+        position: relative;
+        top: 1275px;
+        left: -160px;
+        background-color: #E9E8E2;
+        width: 288.53px;
+        height: 221px;
+        z-index: 6;
+        border: 0px solid #D8D6C1;
+    }
+    .chopperpng{
+        width: 216px;
+        height: 240px;
+        position: relative;
+        top: -5px;
+        left: 20px;
+    }
+    .namachopper{
+        font-size: 0px;
+    }
+    .buttonchopper{
+        position: relative;
+        top: 135px;
+        right: 210px;
+        width: 212.41px;
+        height: 45.43px;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    /* ======================================================================== */
+    .robin{
+        position: relative;
+        top: 1310px;
+        left: -160px;
+        background-color: #E9E8E2;
+        width: 288.53px;
+        height: 221px;
+        z-index: 7;
+        border: 0px solid #D8D6C1;
+    }
+    .robinpng{
+        width: 230px;
+        height: 230px;
+        position: relative;
+        top: -1px;
+        left: 40px;
+    }
+    .namarobin{
+        font-size: 0px;
+    }
+    .buttonrobin{
+        position: relative;
+        top: 135px;
+        right: 220px;
+        width: 212.41px;
+        height: 45.43px;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+/* ======================================================================== */
+    .duakru{
+        background-color: white;
+        border-radius: 20px;
+        width: 0px;
+        height: 0px;
+    }
+
+    /* ======================================================================== */
+    .brook{
+        background-color: #FFDBC5;
+        border-radius: 20px;
+        width: 288.53px;
+        height: 221px;
+        position: relative;
+        top: 2000px;
+        left: -15px;
+        z-index: 9;
+    }
+    .brookpng{
+        position: relative;
+        top: 4px;
+        left: 50px;
+        width: 200px;
+        height: 222px;
+    }
+    .namabrook{
+        font-size: 0px;
+    }
+    .buttonbrook{
+        position: relative;
+        top: 167px;
+        right: 160px;
+        background-color: #E36415;
+        border-radius: 15px;
+        width: 212.41px;
+        height: 45.43px;
+        color: white;
+        font-size: 20px;
+    }
+    /* ======================================================================== */
+    .jinbe{
+        background-color: #8FC5ED;
+        width: 288.53px;
+        height: 235px;
+        position: relative;
+        right: 160px;
+        top: 2260px;
+        z-index: 10;
+        border-radius: 20px;
+    }
+    .jinbepng{
+        position: relative;
+        top: 24px;
+        left: 25px;
+        width: 240px;
+        height: 225px;
+    }
+    .namajinbe{
+        font-size: 0px;
+        font-weight: 0;
+    }
+    .buttonjinbe{
+        position: relative;
+        bottom: 49px;
+        left: 40px;
+        background-color: #275E87;
+        border-radius: 15px;
+        width: 212.41px;
+        height: 45.43px;
+        font-size: 20px;
+    }
+}
